@@ -1,0 +1,60 @@
+[33mcommit ae6989aa70366cb3c88468f2e091bde110cd077e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: b6f6ee8 d969e1b
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Tue Sep 14 11:11:54 2021 -0300
+
+    Merge branch 'master' of https://github.com/claudiobarsante/photo-site-cl
+
+[33mcommit b6f6ee816d6ffcba4db3524da21ade4cc00a47d2[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Tue Sep 14 11:11:25 2021 -0300
+
+    Update intro heading
+
+[33mcommit d969e1b512a702b74d77ae1cc60c768db4b54578[m[33m ([m[1;32mredesign-navbar[m[33m)[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:59:06 2021 -0300
+
+    Update item anchor
+
+[33mcommit 8b0dba7486e82f8bf2ec2ab76bb45d286a45a946[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:56:21 2021 -0300
+
+    Update navbar items
+
+[33mcommit 49d409a0bf46c5ff3eb0f28a514aeecc02f12316[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:58:11 2021 -0300
+
+    Add One Change
+
+[33mcommit c6441a87b64f3e5d7cf7143a289a24227d903869[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:34:40 2021 -0300
+
+    Delete comments on index.html
+
+[33mcommit ad030fe0b6baa8975b2eb3b7ea70ccd4e4cbc2e8[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:22:31 2021 -0300
+
+    Update README
+
+[33mcommit 6f3f34c587dbb8143cfeabede67689638c0f80d7[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 16:19:46 2021 -0300
+
+    Update and rename README.txt to README.md
+
+[33mcommit b219d37d2b7187b7f7cd864fcf055bdb7b924a76[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 15:45:30 2021 -0300
+
+    Change site title
+
+[33mcommit 5cc2efc3fa56d7ed245a4dcdf3a9fbba45218f27[m
+Author: Claudio Barsante <clbmribas@gmail.com>
+Date:   Mon Sep 13 15:10:15 2021 -0300
+
+    add initial template
