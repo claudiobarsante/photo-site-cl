@@ -4,9 +4,9 @@ Add here all the descriptions that you think it will be useful and valuable to t
 
 ## Tasks
 
-- [] Read the guidelines
-- [] Test in all browsers
-- [] ...
+- [ ] Read the guidelines
+- [ ] Test in all browsers
+- [ ] ...
 
 ## Screenshots
 
