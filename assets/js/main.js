@@ -170,6 +170,99 @@
 			});
 		};
 
+		// Section transitions.
+		if (browser.canUse('transition')) {
+			var on = function () {
+				// Galleries.
+				$('.gallery').scrollex({
+					top: '30vh',
+					bottom: '30vh',
+					delay: 50,
+					initialize: function () {
+						$(this).addClass('inactive');
+					},
+					terminate: function () {
+						$(this).removeClass('inactive');
+					},
+					enter: function () {
+						$(this).removeClass('inactive');
+					},
+					leave: function () {
+						$(this).addClass('inactive');
+					},
+				});
+
+				// Generic sections.
+				$('.main.style1').scrollex({
+					mode: 'middle',
+					delay: 50,
+					initialize: function () {
+						$(this).addClass('inactive');
+					},
+					terminate: function () {
+						$(this).removeClass('inactive');
+					},
+					enter: function () {
+						$(this).removeClass('inactive');
+					},
+					leave: function () {
+						$(this).addClass('inactive');
+					},
+				});
+
+				$('.main.style2').scrollex({
+					mode: 'middle',
+					delay: 50,
+					initialize: function () {
+						$(this).addClass('inactive');
+					},
+					terminate: function () {
+						$(this).removeClass('inactive');
+					},
+					enter: function () {
+						$(this).removeClass('inactive');
+					},
+					leave: function () {
+						$(this).addClass('inactive');
+					},
+				});
+
+				// Contact.
+				$('#contact').scrollex({
+					top: '50%',
+					delay: 50,
+					initialize: function () {
+						$(this).addClass('inactive');
+					},
+					terminate: function () {
+						$(this).removeClass('inactive');
+					},
+					enter: function () {
+						$(this).removeClass('inactive');
+					},
+					leave: function () {
+						$(this).addClass('inactive');
+					},
+				});
+			};
+
+			var off = function () {
+				// Galleries.
+				$('.gallery').unscrollex();
+
+				// Generic sections.
+				$('.main.style1').unscrollex();
+
+				$('.main.style2').unscrollex();
+
+				// Contact.
+				$('#contact').unscrollex();
+			};
+
+			breakpoints.on('<=small', off);
+			breakpoints.on('>small', on);
+		}
+
 		var off = function () {
 			// Galleries.
 			$('.gallery').unscrollex();
